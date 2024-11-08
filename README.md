@@ -8,7 +8,7 @@ Step 1: Install the dependencies to your Python enviornment (This repo was teste
 pip install -r train_requirements.txt 
 ```
 
-Step 2: Sign-Up for a free Comet account
+Step 2: [Sign-Up for a free Comet account](https://www.comet.com/signup?utm_source=intel_ai_dev_summit&utm_medium=github&utm_content=readme)
 
 Step 3: Run the training scripts, (the first one will prompt you for your Comet API Key which you can find here)
 

@@ -5,7 +5,7 @@
 Step 1: Install the dependencies to your Python enviornment (This repo was tested on Python3.11)
 
 ```console
-pip install -r train_requirements.txt 
+pip install scikit-learn xgboost comet-ml
 ```
 
 Step 2: [Sign-Up for a free Comet account](https://www.comet.com/signup?utm_source=intel_ai_dev_summit&utm_medium=github&utm_content=readme)

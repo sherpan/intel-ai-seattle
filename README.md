@@ -10,7 +10,13 @@ pip install scikit-learn xgboost comet-ml
 
 Step 2: [Sign-Up for a free Comet account](https://www.comet.com/signup?utm_source=intel_ai_dev_summit&utm_medium=github&utm_content=readme)
 
-Step 3: Run the training scripts, (the first one will prompt you for your Comet API Key which you can find here)
+Step 3: Configure Your Comet Creditentials 
+
+```console
+comet login 
+```
+
+Step 4: Run the training scripts!
 
 ```console
 python training_scripts/gb.py
@@ -32,7 +38,13 @@ pip install torch torchvision scikit-learn openvino comet-ml
 
 Step 2: [Sign-Up for a free Comet account](https://www.comet.com/signup?utm_source=intel_ai_dev_summit&utm_medium=github&utm_content=readme)
 
-Step 3: Run the inference with native pytorch
+Step 3: Configure Your Comet Creditentials 
+
+```console
+comet login 
+```
+
+Step 4: Run the inference with native pytorch
 
 ```console
 python inference_scripts/pt_inference.py
